@@ -2,7 +2,7 @@
 
 import { motion } from "framer-motion";
 
-export default function SystemArchitecture() {
+export default function BlogSection() {
   return (
     <section className="py-20 px-4">
       <div className="max-w-6xl mx-auto">
@@ -12,10 +12,10 @@ export default function SystemArchitecture() {
           viewport={{ once: true }}
           className="text-3xl font-bold mb-12 text-center"
         >
-          Experience
+          Blogs & Tutorials
         </motion.h2>
 
-        <div className="grid grid-cols-1 gap-8">
+        {/* <div className="grid grid-cols-1 gap-8">
           {[
             {
               title: "Full-Stack Developer - Web Lankan (Mar2025 - Present)",
@@ -160,7 +160,7 @@ export default function SystemArchitecture() {
               </div>
             </motion.div>
           ))}
-        </div>
+        </div> */}
       </div>
     </section>
   );
