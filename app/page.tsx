@@ -4,7 +4,6 @@ import HeroSection from "./components/HeroSection";
 import SystemArchitecture from "./components/SystemArchitecture";
 import TechnicalMetrics from "./components/TechnicalMetrics";
 import ContactSection from "./components/ContactSection";
-import BlogSection from "./components/BlogSection";
 
 export default function BackendPortfolio() {
   return (
@@ -12,7 +11,6 @@ export default function BackendPortfolio() {
       <HeroSection />
       <SystemArchitecture />
       <TechnicalMetrics />
-      {/* <BlogSection /> */}
       <ContactSection />
     </main>
   );
