@@ -67,7 +67,7 @@ export default function HeroSection() {
               </span>
             </div>
 
-            <p className="text-green-500">$ education</p>
+            <p className="text-green-500">$ls ./education</p>
             <div className="flex flex-wrap gap-2 mt-2">
               <span className="px-3 py-1 bg-green-500/10 rounded-md border border-green-500/20">
                 BEng in Software Engineering (Senior)
